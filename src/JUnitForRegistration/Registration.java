@@ -8,6 +8,10 @@ public class Registration {
         boolean b1 = Pattern.compile("^[A-Z]{1}[A-Za-z]{2,}$").matcher(str1).matches();
         return b1;
     }
+    static boolean LastName(String str2) {
+        boolean b2 = Pattern.compile("^[A-Z]{1}[A-Za-z]{2,}$").matcher(str2).matches();
+        return b2;
+    }
     public static void main(String[] args) {
     }
 

@@ -7,6 +7,7 @@ public class TestReg extends Registration {
     @Test
     public void RegTest (){
         Assert.assertEquals(true, Name("Avi"));
+        Assert.assertEquals(true,LastName("Gharmode"));
 
     }
 
